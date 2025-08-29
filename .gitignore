@@ -1,0 +1,200 @@
+# ============================================
+# Rust Password Manager - .gitignore
+# ============================================
+# Comprehensive .gitignore for Rust projects
+# Generated for secure password management application
+
+# ============================================
+# Rust Build Artifacts
+# ============================================
+**/target/
+**/Cargo.lock
+
+# ============================================
+# IDE and Editor Files
+# ============================================
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+.history/
+
+# IntelliJ IDEA / CLion
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# ============================================
+# Operating System Files
+# ============================================
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ============================================
+# Temporary and Cache Files
+# ============================================
+*.tmp
+*.temp
+*.cache
+.cache/
+*.log
+logs/
+
+# ============================================
+# Package and Dependency Files
+# ============================================
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Python (if any)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ============================================
+# Security and Sensitive Files
+# ============================================
+# Password files (just in case)
+**/passwords.enc
+**/*.key
+**/*.pem
+**/*.crt
+**/*.p12
+**/*.pfx
+**/secrets/
+**/.env
+**/.env.local
+**/.env.*.local
+
+# ============================================
+# Build and Distribution
+# ============================================
+**/dist/
+**/build/
+**/*.exe
+**/*.dll
+**/*.so
+**/*.dylib
+**/*.deb
+**/*.rpm
+**/*.tar.gz
+**/*.zip
+
+# ============================================
+# Testing and Coverage
+# ============================================
+**/coverage/
+**/*.profraw
+**/*.profdata
+**/.coverage
+**/coverage.xml
+**/*.cover
+
+# ============================================
+# Documentation Build
+# ============================================
+**/docs/build/
+**/docs/.doctrees/
+**/*.pdf
+**/*.epub
+
+# ============================================
+# Backup Files
+# ============================================
+*.bak
+*.backup
+*.orig
+*.rej
+
+# ============================================
+# Miscellaneous
+# ============================================
+# Local configuration files
+config.local.*
+local.*
+
+# Debug files
+**/debug/
+**/*.debug
+
+# Temporary directories
+**/tmp/
+**/temp/
+
+# ============================================
+# Git and Version Control
+# ============================================
+# (These are usually already ignored by Git)
+# .git/
+# .gitignore
+
+# ============================================
+# Project Specific
+# ============================================
+# Add any project-specific ignores here
+# For example:
+# data/
+# uploads/
+# downloads/
+
+# ============================================
+# Notes
+# ============================================
+# - Keep this file updated as your project evolves
+# - Add project-specific patterns as needed
+# - Consider using gitignore.io for additional patterns
